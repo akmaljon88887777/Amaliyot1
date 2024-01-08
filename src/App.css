@@ -1,0 +1,391 @@
+* {
+  font-family: "Heebo", sans-serif !important;
+  padding: 0;
+  margin: 0;
+  
+}
+::-webkit-scrollbar-thumb{
+  background: rgb(123, 36, 220) !important;
+  background: linear-gradient(315deg, rgba(123, 36, 220, 1) 0%, rgba(110, 72, 242, 1) 35%, rgba(71, 123, 216, 1) 100%) !important;
+  border-radius: 0.3em;
+}
+::-webkit-scrollbar {
+  width: 1em;
+  overflow-x: none;
+}
+::-webkit-scrollbar-track {
+  background-color: #C1C1C1;
+  margin-block: 0.15em;
+  border-radius: 0.3em;
+}
+.text0 {
+  background: -moz-linear-gradient(top, #e72c83 0%, #a742c6 100%);
+  background: -webkit-linear-gradient(top, #e72c83 0%, #a742c6 100%);
+  background: linear-gradient(to bottom, #e72c83 0%, #a742c6 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+MdSettingsSuggest {
+  color: var(rgba(123, 36, 220), var(rgba(71, 123, 216, 1))) !important;
+  -webkit-background-clip: text !important;
+
+}
+
+.icon {
+  color: var(rgba(123, 36, 220), var(rgba(71, 123, 216, 1)));
+}
+
+.color2 {
+  background: rgb(123, 36, 220);
+  background: linear-gradient(315deg, rgba(123, 36, 220, 1) 0%, rgba(110, 72, 242, 1) 35%, rgba(71, 123, 216, 1) 100%);
+}
+
+.color2:hover {
+  background: rgb(123, 36, 220);
+  background: linear-gradient(131deg, rgba(123, 36, 220, 1) 0%, rgba(110, 72, 242, 1) 35%, rgba(71, 123, 216, 1) 100%);
+}
+
+.navbar-color {
+  background-color: white !important;
+  width: 100%;
+  height: 80px; 
+  padding-inline: 20% !important;
+  transition: 0.9s;
+  color:#262B47;
+  animation: shimmer 2.5s infinite;
+  padding-inline: -35px !important;
+  display: flex;
+  justify-content: space-between;
+  z-index: 999 !important;
+  box-shadow: 0 0 0.9em gray;
+}
+
+.rasm2 {
+  background-image: url('./about.png');
+  width: 675px;
+  height: 500px;
+  background-size: cover;
+  z-index: 1;
+}
+.navbar-color .navbar-nav .nav-link {
+  position: relative;
+  margin-right: 25px;
+  padding: 45px 0;
+  font-family: 'Jost', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--light) !important;
+  outline: none;
+  transition: .5s;
+}
+.navbar-color .navbar-nav .nav-link::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 10px solid;
+  border-color: var(--light) transparent transparent transparent;
+  transition: .5s;
+}
+.navbar-light .navbar-nav .nav-link:hover::before,
+.navbar-light .navbar-nav .nav-link.active::before {
+    top: 0;
+}
+.navbar-color2 {
+  color: white !important;
+  transition: 2s;
+  background-repeat: no-repeat;
+  animation: shimmer 2.5s infinite;
+}
+.navbar-color3{
+  background: linear-gradient(to right, #7B24DC, #0000ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.swiper-pagination-bullet-active {
+  background: rgb(123, 36, 220) !important;
+  background: linear-gradient(315deg, rgba(123, 36, 220, 1) 0%, rgba(110, 72, 242, 1) 35%, rgba(71, 123, 216, 1) 100%) !important;
+  margin-left: 10px !important;
+  width: 15px !important;
+  height: 15px !important;
+  accent-color: white;
+}
+
+swiper-pagination-bullet {
+  background: rgb(123, 36, 220) !important;
+  background: linear-gradient(315deg, rgba(123, 36, 220, 1) 0%, rgba(110, 72, 242, 1) 35%, rgba(71, 123, 216, 1) 100%) !important;
+  margin-left: 10px !important;
+  width: 15px !important;
+  height: 15px !important;
+  accent-color: white;
+
+}
+
+.custom-shape-divider-bottom-1703993272 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1703993272 svg {
+  position: relative;
+  display: block;
+  width: calc(121% + 1.3px);
+  height: 181px;
+}
+
+.custom-shape-divider-bottom-1703993272 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.btnb {
+  background: rgb(123, 36, 220);
+  background: linear-gradient(315deg, rgba(123, 36, 220, 1) 0%, rgba(110, 72, 242, 1) 35%, rgba(71, 123, 216, 1) 100%);
+}
+
+.btnb3 {
+  background: rgb(123, 36, 220);
+  background: linear-gradient(315deg, rgba(123, 36, 220, 1) 0%, rgba(110, 72, 242, 1) 35%, rgba(71, 123, 216, 1) 100%);
+}
+
+.btnb3::part {
+  width: 420px;
+  height: 250px;
+  border-radius: 15px;
+}
+
+.btnb2 {
+  background: rgb(123, 36, 220);
+  background: linear-gradient(315deg, rgba(123, 36, 220, 1) 0%, rgba(110, 72, 242, 1) 35%, rgba(71, 123, 216, 1) 100%);
+}
+
+.btnb:hover {
+  background: rgb(123, 36, 220);
+  background: linear-gradient(131deg, rgba(123, 36, 220, 1) 0%, rgba(110, 72, 242, 1) 35%, rgba(71, 123, 216, 1) 100%);
+}
+
+.nav {
+  font-family: "Heebo", sans-serif;
+
+}
+
+.color {
+  background: linear-gradient(to right, #7B24DC, #0000ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn1 {
+  background: rgb(123, 36, 220);
+  background: linear-gradient(138deg, rgba(123, 36, 220, 1) 0%, rgba(110, 72, 242, 1) 50%, rgba(71, 123, 216, 1) 100%);
+}
+
+.btn2 {
+  background: rgb(123, 36, 220);
+  background: linear-gradient(326deg, rgba(123, 36, 220, 1) 0%, rgba(110, 72, 242, 1) 50%, rgba(71, 123, 216, 1) 100%);
+}
+
+.btn1:hover {
+  background: rgb(123, 36, 220);
+  background: linear-gradient(326deg, rgba(123, 36, 220, 1) 0%, rgba(110, 72, 242, 1) 50%, rgba(71, 123, 216, 1) 100%);
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #F0F6FF;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card1:hover {
+  margin-top: -15px;
+  transition-duration: 1s;
+}
+
+.card2:hover {
+  margin-top: -15px;
+  transition-duration: 1s;
+}
+
+.card3:hover {
+  margin-top: -15px;
+  transition-duration: 1s;
+}
+
+.card4:hover {
+  margin-top: -15px;
+  transition-duration: 1s;
+}
+
+.card5:hover {
+  margin-top: -15px;
+  transition-duration: 1s;
+}
+
+.card6:hover {
+  margin-top: -15px;
+  transition-duration: 1s;
+}
+
+.imgCarousel {
+  width: 35px;
+  height: 550px;
+  z-index: 1;
+  background-image: url('./screenshot-frame.png');
+  background-size: cover;
+  display: grid;
+  justify-items: center;
+  margin-bottom: 30px;
+}
+
+.imgCarousel2 {
+  width: 253px;
+  height: 500px;
+  background-image: url('./screenshot-frame.png');
+  background-size: cover;
+}
+
+.img {
+  background-image: url('../src/Components/Header/screenshot-2.png');
+  width: 220px;
+  height: 500px;
+  background-size: cover;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  background-color: transparent;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carusel:active {
+  background: rgb(123, 36, 220) !important;
+  background: linear-gradient(315deg, rgba(123, 36, 220, 1) 0%, rgba(110, 72, 242, 1) 35%, rgba(71, 123, 216, 1) 100%);
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imgCarousel .swiper:active {
+  accent-color: #000;
+}
+
+.btn2:hover {
+  background: rgb(123, 36, 220);
+  background: linear-gradient(138deg, rgba(123, 36, 220, 1) 0%, rgba(110, 72, 242, 1) 50%, rgba(71, 123, 216, 1) 100%);
+}
+
+button {
+  cursor: pointer;
+  transition-duration: 10s;
+  z-index: 1 !important;
+}
+
+button:hover {
+  transform: 1s;
+}
+
+.bg {
+  z-index: -1;
+  background: rgb(123, 36, 220);
+  background: linear-gradient(315deg, rgba(123, 36, 220, 1) 0%, rgba(110, 72, 242, 1) 35%, rgba(71, 123, 216, 1) 100%);
+}
+
+.nav {
+
+  background: rgb(123, 36, 220);
+  background: linear-gradient(124deg, rgba(123, 36, 220, 1) 0%, rgba(110, 72, 242, 1) 35%, rgba(71, 123, 216, 1) 100%);
+}
+
+.swiper {
+  padding: 2px;
+  width: 230px;
+  height: 470px;
+  border-radius: 7px !important;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: rgb(123, 36, 220);
+  background: linear-gradient(315deg, rgba(123, 36, 220, 1) 0%, rgba(110, 72, 242, 1) 35%, rgba(71, 123, 216, 1) 100%);
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swipperrasm {
+  width: 400px;
+  height: 230px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none !important;
+}
